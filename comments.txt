@@ -1,0 +1,14 @@
+#type conversion single line comment
+x=20.254
+print (int(x)) #float o int
+y=20
+print (float(y)) # int to float
+
+age = int(input("input your age"))
+print(age)
+"""
+type 
+conversion
+in 
+python
+"""
