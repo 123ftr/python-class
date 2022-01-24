@@ -1,0 +1,7 @@
+#excercise
+hours=int (input("input hours"))
+print(hours)
+rate=float (input("input rate"))
+print(rate)
+grosspay=hours*rate
+print(grosspay)
