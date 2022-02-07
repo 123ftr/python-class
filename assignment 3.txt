@@ -1,0 +1,23 @@
+age=int (input("enter your age; "))
+sex=["m,f"]
+sex=str(input("enter your gender; "))
+days=int(input("enter no.of days worked; "))
+if age>=18  <30 and sex=="m":
+  wage=700*days
+  print("wage; " , wage)
+elif age>=18 <30 and sex=="f":
+  wage=750*days
+  print("wage; " ,wage)
+else:
+  print("")
+if age>=30 <=40 and sex=="m":
+  wage=800*days
+  print("wage; " ,wage)
+elif age>=30 <=40 and sex=="f":
+  wage=850*days
+  print("wage; " ,wage)
+else:
+  print("")
+if age>40:
+  print("input correct age")
+  
